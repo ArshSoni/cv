@@ -1,0 +1,21 @@
+.section {
+  margin-bottom: 10px;
+  font-size: 12px;
+  
+  &--heading {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  &--heading:after {
+    content: '';
+    border-bottom: 1px solid #9C3;
+    margin-top: 2px;
+    display: block;
+  }
+  
+  &--body {
+    color: #333;
+  }
+}

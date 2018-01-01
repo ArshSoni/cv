@@ -1,0 +1,40 @@
+.intro {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  
+  &--title {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+  }
+  
+  & small {
+    display: block;
+    margin-bottom: 3px;
+
+    & > span {
+      &:after {
+        content:'•';
+        margin: 0 5px;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+      }
+
+      &:last-child:after {
+        content: '';
+      }
+    }
+
+  }
+  
+  & .fa {
+    margin-right: 5px;
+  }
+  
+  & .fa-mobile,
+  & .fa-github {
+    font-size: 140%;
+  }
+}

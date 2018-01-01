@@ -1,0 +1,14 @@
+@import 'base';
+@import 'section';
+@import 'intro';
+@import 'summary';
+@import 'experience';
+@import 'education';
+@import 'skills';
+
+.references {
+  text-align: center;
+  margin:0 auto;
+  display: block;
+  margin-top: 20px;
+}

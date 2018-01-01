@@ -1,0 +1,118 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style-position: inside;
+  text-indent: -18px;
+  margin-left: 20px; }
+
+body {
+  background-color: white;
+  /* padding: 5px 25px 20px; */
+  padding: 0 20px;
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  font-size: 12px; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
+.pull-left {
+  float: left !important; }
+
+.pull-right {
+  float: right !important; }
+
+.section {
+  margin-bottom: 10px;
+  font-size: 12px; }
+  .section--heading {
+    display: block;
+    margin-bottom: 10px;
+    color: #666; }
+  .section--heading:after {
+    content: '';
+    border-bottom: 1px solid #9C3;
+    margin-top: 2px;
+    display: block; }
+  .section--body {
+    color: #333; }
+
+.intro {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px; }
+  .intro--title {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 2px; }
+  .intro small {
+    display: block;
+    margin-bottom: 3px; }
+    .intro small > span:after {
+      content: '•';
+      margin: 0 5px;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 16px; }
+    .intro small > span:last-child:after {
+      content: ''; }
+  .intro .fa {
+    margin-right: 5px; }
+  .intro .fa-mobile, .intro .fa-github {
+    font-size: 140%; }
+
+.summary p {
+  margin-bottom: 10px; }
+
+.experience--descriptionList {
+  margin-left: 20px;
+  margin-top: 5px; }
+.experience--descriptionItem {
+  margin-bottom: 5px; }
+.experience--item {
+  margin-bottom: 15px; }
+  .experience--item:after {
+    content: '';
+    width: 90%;
+    height: 1px;
+    display: block;
+    margin: 20px auto 0;
+    background-color: #f1f1f1; }
+
+/* education */
+.education--item {
+  margin-bottom: 15px; }
+.education--uniResults {
+  margin-right: 20px; }
+
+.skills--item {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 5px; }
+
+.references {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=main.css.map */
