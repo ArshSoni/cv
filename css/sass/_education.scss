@@ -3,6 +3,14 @@
 
   &--item {
     margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 5px;
+    }
+  }
+
+  &--uniResultsWrapper {
+    margin-left: 20px;
   }
   
   &--uniResults {

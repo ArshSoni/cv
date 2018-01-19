@@ -1,0 +1,15 @@
+.interests {
+
+  &--item {
+    display: inline-block; 
+
+    &:not(:last-child):after {
+      content: '•';
+      margin: 0 5px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  }
+
+}

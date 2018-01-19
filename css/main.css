@@ -58,12 +58,12 @@ body {
 
 .intro {
   text-align: center;
-  margin-bottom: 10px;
   font-size: 14px; }
   .intro--title {
     text-transform: uppercase;
     margin-bottom: 5px;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    font-size: 25px; }
   .intro small {
     display: block;
     margin-bottom: 3px; }
@@ -90,17 +90,14 @@ body {
   margin-bottom: 5px; }
 .experience--item {
   margin-bottom: 15px; }
-  .experience--item:after {
-    content: '';
-    width: 90%;
-    height: 1px;
-    display: block;
-    margin: 20px auto 0;
-    background-color: #f1f1f1; }
 
 /* education */
 .education--item {
   margin-bottom: 15px; }
+  .education--item:last-child {
+    margin-bottom: 5px; }
+.education--uniResultsWrapper {
+  margin-left: 20px; }
 .education--uniResults {
   margin-right: 20px; }
 
@@ -108,6 +105,14 @@ body {
   float: left;
   width: 33.33%;
   margin-bottom: 5px; }
+
+.interests--item {
+  display: inline-block; }
+  .interests--item:not(:last-child):after {
+    content: '•';
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: middle; }
 
 .references {
   text-align: center;

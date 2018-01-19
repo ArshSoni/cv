@@ -10,14 +10,5 @@
   
   &--item {
     margin-bottom: 15px;
-
-    &:after {
-      content:'';
-      width: 90%;
-      height: 1px;
-      display: block;
-      margin: 20px auto 0;
-      background-color: #f1f1f1;
-    }
   }
 }
