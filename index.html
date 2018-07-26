@@ -132,7 +132,7 @@
           <li class="skills--item">Advance JS/ES6 knowledge</li>
           <li class="skills--item">Intermediate jQuery</li>
           <li class="skills--item">NodeJS, ExpressJS, PHP and Java</li>
-          <li class="skills--item">Unit Testing: Mocha, Chai</li>
+          <li class="skills--item">Unit Testing: Mocha, Chai, Jest</li>
           <li class="skills--item">MySQL and PostgreSQL</li>
           <li class="skills--item">Experience with SASS/SCSS</li>
           <li class="skills--item">Experience with B.E.M</li>
@@ -164,5 +164,12 @@
 
     <p class="references">References are available upon request</p>
   </div>
+
+  <script>
+    var skillList = document.getElementsByClassName('skills--list')[0];
+    var skillItems = [...skillList.querySelectorAll('.skills--item')]
+    skillItems.sort((a, b) => a.textContent.localeCompare(b.textContent))
+    skillItems.forEach(item => skillList.appendChild(item))
+  </script>
 </body>
 </html>
