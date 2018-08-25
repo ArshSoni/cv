@@ -1,7 +1,10 @@
 .experience {
   &--descriptionList {
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 8px;
+    list-style: disc outside none;
+    padding: 0 0 0 10px;
+    text-indent: 0;
   }
   
   &--descriptionItem {
@@ -10,5 +13,11 @@
   
   &--item {
     margin-bottom: 15px;
+  }
+
+  &--companyName {
+    font-size: 13px;
+    text-decoration: underline;
+    font-style: italic;
   }
 }
